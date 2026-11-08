@@ -1,0 +1,92 @@
+EPISODE NUMBER: Episode 2
+EPISODE LOGLINE: Daniel tries to have the stranger thrown out of the bakery, until the bank manager arrives and reveals who really owns the building.
+CONTINUITY NOTES: Made-up sample episode for trying the tool. Not from any real show.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. BAKERY – DAY
+Scene start: 00:00.00
+Scene end: 01:05.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:02.50)
+Daniel kicks open the bakery door; flour dust bursts into the air.
+
+**DANIEL (Shouting):**
+Start: (00:00.50) | End: (00:03.50)
+"Everybody out! This place is mine!"
+
+**ACTION:**
+Start: (00:03.50) | End: (00:06.00)
+Maya's mother drops a tray of bread, trembling.
+
+**MAYA (Defiant):**
+Start: (00:06.00) | End: (00:09.00)
+"You'll have to drag me out yourself."
+
+**DANIEL (Cruel):**
+Start: (00:09.00) | End: (00:12.50)
+"Gladly. Security, remove these two."
+
+**ACTION:**
+Start: (00:12.50) | End: (00:15.00)
+Two guards step toward Maya and her mother.
+
+**STRANGER (Calm):**
+Start: (00:15.00) | End: (00:18.00)
+"I wouldn't touch them if I were you."
+
+**DANIEL (Laughing):**
+Start: (00:18.00) | End: (00:22.00)
+"You again? A man in a borrowed coat giving orders?"
+
+**SOUND FX:**
+Start: (00:22.00) | End: (00:23.00)
+The door bell rings sharply.
+
+**ACTION:**
+Start: (00:23.00) | End: (00:26.00)
+A bank manager in a dark suit hurries in, out of breath.
+
+**BANK MANAGER (Nervous):**
+Start: (00:26.00) | End: (00:30.00)
+"Mr. Daniel, the sale is void. The building was never yours to buy."
+
+**DANIEL (Stunned):**
+Start: (00:30.00) | End: (00:33.00)
+"What are you talking about? I paid for it!"
+
+**BANK MANAGER (Firm):**
+Start: (00:33.00) | End: (00:37.00)
+"This entire street belongs to one owner. He is standing right there."
+
+**ACTION:**
+Start: (00:37.00) | End: (00:40.00)
+Every head turns to the stranger. Maya's mouth falls open.
+
+**MAYA (Breathless):**
+Start: (00:40.00) | End: (00:43.00)
+"You own... the whole street?"
+
+**STRANGER (Quiet):**
+Start: (00:43.00) | End: (00:47.00)
+"I own a lot of things, Maya. Daniel is about to find out which."
+
+**DANIEL (Panicked):**
+Start: (00:47.00) | End: (00:50.00)
+"No. No, this is a trick."
+
+**CAMERA:**
+Start: (00:50.00) | End: (00:54.00)
+Close-up on the stranger slowly taking out his phone and dialing.
+
+**STRANGER (Cold):**
+Start: (00:54.00) | End: (00:58.00)
+"Bring me everything we have on Daniel Hart."
+
+**CAMERA:**
+Start: (00:58.00) | End: (01:05.00)
+Daniel's face drains of colour as the line connects. Cliffhanger.

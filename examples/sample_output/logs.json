@@ -1,0 +1,256 @@
+[
+  {
+    "episode": 1,
+    "rounds": [
+      {
+        "raw": {
+          "promos": [
+            {
+              "title": "Engagement Party Bakery Betrayal",
+              "segments": [
+                {
+                  "first_beat": "E01-004",
+                  "last_beat": "E01-016"
+                }
+              ],
+              "hook_beat": "E01-004",
+              "hook": "This is a sale contract. For my mother's bakery.",
+              "cliffhanger_beat": "E01-015",
+              "cliffhanger": "Who are you?",
+              "why": "Stops scrolling with a shocking betrayal at an engagement party and cuts right as an imposing stranger unmasks his authority.",
+              "context_needed": ""
+            },
+            {
+              "title": "Forged Signature Mystery Savior",
+              "segments": [
+                {
+                  "first_beat": "E01-007",
+                  "last_beat": "E01-022"
+                }
+              ],
+              "hook_beat": "E01-007",
+              "hook": "You forged my signature!",
+              "cliffhanger_beat": "E01-021",
+              "cliffhanger": "Because your mother once fed a hungry boy for free. I never forgot.",
+              "why": "Opens on high-stakes physical and emotional conflict before shifting to an intriguing emotional debt reveal.",
+              "context_needed": ""
+            }
+          ],
+          "moments": [
+            {
+              "beat": "E01-004",
+              "type": "hook",
+              "text": "This is a sale contract. For my mother's bakery."
+            },
+            {
+              "beat": "E01-007",
+              "type": "hook",
+              "text": "You forged my signature!"
+            },
+            {
+              "beat": "E01-021",
+              "type": "cliffhanger",
+              "text": "Because your mother once fed a hungry boy for free. I never forgot."
+            }
+          ]
+        },
+        "issues": [
+          [],
+          [
+            "cliffhanger beat E01-021 is not at the cut"
+          ]
+        ]
+      },
+      {
+        "raw": {
+          "promos": [
+            {
+              "title": "Engagement Party Bakery Betrayal",
+              "segments": [
+                {
+                  "first_beat": "E01-004",
+                  "last_beat": "E01-015"
+                }
+              ],
+              "hook_beat": "E01-004",
+              "hook": "MAYA (Shocked): \"This is a sale contract. For my mother's bakery.\"",
+              "cliffhanger_beat": "E01-015",
+              "cliffhanger": "MAYA (Whispering): \"Who are you?\"",
+              "why": "Stops scrolling with a shocking betrayal at an engagement party and cuts right as an imposing stranger unmasks his authority.",
+              "context_needed": ""
+            },
+            {
+              "title": "Forged Signature Mystery Savior",
+              "segments": [
+                {
+                  "first_beat": "E01-007",
+                  "last_beat": "E01-021"
+                }
+              ],
+              "hook_beat": "E01-007",
+              "hook": "MAYA (Furious): \"You forged my signature!\"",
+              "cliffhanger_beat": "E01-021",
+              "cliffhanger": "STRANGER (Quiet): \"Because your mother once fed a hungry boy for free. I never forgot.\"",
+              "why": "Opens on high-stakes physical and emotional conflict before shifting to an intriguing emotional debt reveal.",
+              "context_needed": ""
+            }
+          ],
+          "moments": [
+            {
+              "beat": "E01-004",
+              "type": "hook",
+              "text": "MAYA (Shocked): \"This is a sale contract. For my mother's bakery.\""
+            },
+            {
+              "beat": "E01-007",
+              "type": "hook",
+              "text": "MAYA (Furious): \"You forged my signature!\""
+            },
+            {
+              "beat": "E01-021",
+              "type": "cliffhanger",
+              "text": "STRANGER (Quiet): \"Because your mother once fed a hungry boy for free. I never forgot.\""
+            }
+          ]
+        },
+        "issues": [
+          [],
+          []
+        ]
+      }
+    ],
+    "model": "gemini:gemini-3.5-flash"
+  },
+  {
+    "episode": 2,
+    "rounds": [
+      {
+        "raw": {
+          "promos": [
+            {
+              "title": "The True Owner Revealed",
+              "segments": [
+                {
+                  "first_beat": "E02-000",
+                  "last_beat": "E02-005"
+                },
+                {
+                  "first_beat": "E02-010",
+                  "last_beat": "E02-019"
+                }
+              ],
+              "hook_beat": "E02-001",
+              "hook": "DANIEL (Shouting): \"Everybody out! This place is mine!\"",
+              "cliffhanger_beat": "E02-018",
+              "cliffhanger": "STRANGER (Cold): \"Bring me everything we have on Daniel Hart.\"",
+              "why": "A cruel eviction immediately hooks viewers before pivoting to a dramatic power flip where the hero turns the tables on the villain.",
+              "context_needed": "Daniel secretly sold Maya's bakery during their engagement party."
+            },
+            {
+              "title": "Don't Touch Them",
+              "segments": [
+                {
+                  "first_beat": "E02-006",
+                  "last_beat": "E02-019"
+                }
+              ],
+              "hook_beat": "E02-006",
+              "hook": "STRANGER (Calm): \"I wouldn't touch them if I were you.\"",
+              "cliffhanger_beat": "E02-018",
+              "cliffhanger": "STRANGER (Cold): \"Bring me everything we have on Daniel Hart.\"",
+              "why": "Starts with an intense warning against security guards and escalates into the shock reveal of the mysterious hero's immense wealth.",
+              "context_needed": ""
+            }
+          ],
+          "moments": [
+            {
+              "beat": "E02-001",
+              "type": "hook",
+              "text": "DANIEL (Shouting): \"Everybody out! This place is mine!\""
+            },
+            {
+              "beat": "E02-006",
+              "type": "hook",
+              "text": "STRANGER (Calm): \"I wouldn't touch them if I were you.\""
+            },
+            {
+              "beat": "E02-018",
+              "type": "cliffhanger",
+              "text": "STRANGER (Cold): \"Bring me everything we have on Daniel Hart.\""
+            }
+          ]
+        },
+        "issues": [
+          [
+            "cliffhanger beat E02-018 is not at the cut"
+          ],
+          [
+            "cliffhanger beat E02-018 is not at the cut"
+          ]
+        ]
+      },
+      {
+        "raw": {
+          "promos": [
+            {
+              "title": "The True Owner Revealed",
+              "segments": [
+                {
+                  "first_beat": "E02-000",
+                  "last_beat": "E02-005"
+                },
+                {
+                  "first_beat": "E02-010",
+                  "last_beat": "E02-019"
+                }
+              ],
+              "hook_beat": "E02-001",
+              "hook": "DANIEL (Shouting): \"Everybody out! This place is mine!\"",
+              "cliffhanger_beat": "E02-019",
+              "cliffhanger": "cam: Daniel's face drains of colour as the line connects. Cliffhanger.",
+              "why": "A cruel eviction immediately hooks viewers before pivoting to a dramatic power flip where the hero turns the tables on the villain.",
+              "context_needed": "Daniel secretly sold Maya's bakery during their engagement party."
+            },
+            {
+              "title": "Don't Touch Them",
+              "segments": [
+                {
+                  "first_beat": "E02-006",
+                  "last_beat": "E02-019"
+                }
+              ],
+              "hook_beat": "E02-006",
+              "hook": "STRANGER (Calm): \"I wouldn't touch them if I were you.\"",
+              "cliffhanger_beat": "E02-019",
+              "cliffhanger": "cam: Daniel's face drains of colour as the line connects. Cliffhanger.",
+              "why": "Starts with an intense warning against security guards and escalates into the shock reveal of the mysterious hero's immense wealth.",
+              "context_needed": ""
+            }
+          ],
+          "moments": [
+            {
+              "beat": "E02-001",
+              "type": "hook",
+              "text": "DANIEL (Shouting): \"Everybody out! This place is mine!\""
+            },
+            {
+              "beat": "E02-006",
+              "type": "hook",
+              "text": "STRANGER (Calm): \"I wouldn't touch them if I were you.\""
+            },
+            {
+              "beat": "E02-019",
+              "type": "cliffhanger",
+              "text": "cam: Daniel's face drains of colour as the line connects. Cliffhanger."
+            }
+          ]
+        },
+        "issues": [
+          [],
+          []
+        ]
+      }
+    ],
+    "model": "gemini:gemini-3.5-flash"
+  }
+]

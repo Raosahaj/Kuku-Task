@@ -1,0 +1,134 @@
+[
+  {
+    "rank": 1,
+    "score": 80.0,
+    "title": "Engagement Party Bakery Betrayal",
+    "duration_s": 39.5,
+    "episodes": [
+      1
+    ],
+    "segments": [
+      {
+        "episode": 1,
+        "start": "00:08.50",
+        "end": "00:48.00",
+        "start_s": 8.5,
+        "end_s": 48.0,
+        "first_beat": "E01-004",
+        "last_beat": "E01-016"
+      }
+    ],
+    "hook": "This is a sale contract. For my mother's bakery.",
+    "cliffhanger": "Who are you?",
+    "why": "Stops scrolling with a shocking betrayal at an engagement party and cuts right as an imposing stranger unmasks his authority.",
+    "rank_reason": "strong unresolved cut; clear to a cold viewer; lands viewers near ep 1. Weakness: Opens on calm dialogue setup rather than high-action visual conflict.",
+    "source": "ep1",
+    "scores": {
+      "context_needed": "",
+      "proposer": "gemini:gemini-3.5-flash",
+      "hook": 3.0,
+      "cliffhanger": 4.0,
+      "standalone": 5,
+      "spoiler": 0,
+      "judge_note": "Opens on calm dialogue setup rather than high-action visual conflict.",
+      "repeats_episodes": []
+    },
+    "issues": [],
+    "transcript": ">>   0.0s MAYA: This is a sale contract. For my mother's bakery.\n>>   3.0s DANIEL: Signed this morning. Your family owed me, and now they don't.\n     6.5s [sound] A glass shatters on the marble floor.\n     7.5s MAYA: You forged my signature!\n    11.0s [action] Daniel grabs Maya's wrist and pulls her close.\n    13.5s DANIEL: Smile, Maya. Everyone is watching. You have nothing now.\n    17.5s [visual] Close-up on a tall man in a grey coat at the back of the room, watching.\n    19.5s STRANGER: Let go of her.\n    22.5s DANIEL: And who are you, the waiter?\n    26.0s [action] The stranger places a black card on the table. The hotel manager goes pale.\n    29.0s MANAGER: Sir... nobody told us you were coming tonight.\n    32.5s MAYA: Who are you?\n    35.5s [visual] Slow push-in on the stranger's face as he meets Daniel's eyes. Cut to black."
+  },
+  {
+    "rank": 2,
+    "score": 70.0,
+    "title": "The True Owner Revealed",
+    "duration_s": 54.0,
+    "episodes": [
+      2
+    ],
+    "segments": [
+      {
+        "episode": 2,
+        "start": "00:00.00",
+        "end": "00:15.00",
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "first_beat": "E02-000",
+        "last_beat": "E02-005"
+      },
+      {
+        "episode": 2,
+        "start": "00:26.00",
+        "end": "01:05.00",
+        "start_s": 26.0,
+        "end_s": 65.0,
+        "first_beat": "E02-010",
+        "last_beat": "E02-019"
+      }
+    ],
+    "hook": "Everybody out! This place is mine!",
+    "cliffhanger": "Daniel's face drains of colour as the line connects. Cliffhanger.",
+    "why": "A cruel eviction immediately hooks viewers before pivoting to a dramatic power flip where the hero turns the tables on the villain.",
+    "rank_reason": "scroll-stopping open; strong unresolved cut; clear to a cold viewer; lands viewers near ep 2; some spoiler risk. Weakness: Directly reveals the quiet stranger owns the building, spoiling major plot.",
+    "source": "ep2:repaired",
+    "scores": {
+      "context_needed": "Daniel secretly sold Maya's bakery during their engagement party.",
+      "proposer": "gemini:gemini-3.5-flash",
+      "hook": 5,
+      "cliffhanger": 4.0,
+      "standalone": 5,
+      "spoiler": 2.0,
+      "judge_note": "Directly reveals the quiet stranger owns the building, spoiling major plot.",
+      "repeats_episodes": []
+    },
+    "issues": [],
+    "transcript": "  -- cut 1 --\n>>   0.0s [visual] Daniel kicks open the bakery door; flour dust bursts into the air.\n>>   0.5s DANIEL: Everybody out! This place is mine!\n     3.5s [action] Maya's mother drops a tray of bread, trembling.\n     6.0s MAYA: You'll have to drag me out yourself.\n     9.0s DANIEL: Gladly. Security, remove these two.\n    12.5s [action] Two guards step toward Maya and her mother.\n  -- cut 2 --\n    15.0s BANK MANAGER: Mr. Daniel, the sale is void. The building was never yours to buy.\n    19.0s DANIEL: What are you talking about? I paid for it!\n    22.0s BANK MANAGER: This entire street belongs to one owner. He is standing right there.\n    26.0s [action] Every head turns to the stranger. Maya's mouth falls open.\n    29.0s MAYA: You own... the whole street?\n    32.0s STRANGER: I own a lot of things, Maya. Daniel is about to find out which.\n    36.0s DANIEL: No. No, this is a trick.\n    39.0s [visual] Close-up on the stranger slowly taking out his phone and dialing.\n    43.0s STRANGER: Bring me everything we have on Daniel Hart.\n    47.0s [visual] Daniel's face drains of colour as the line connects. Cliffhanger."
+  },
+  {
+    "rank": 3,
+    "score": 71.0,
+    "title": "Eviction Reversed",
+    "duration_s": 39.0,
+    "episodes": [
+      1,
+      2
+    ],
+    "segments": [
+      {
+        "episode": 2,
+        "start": "00:00.00",
+        "end": "00:22.00",
+        "start_s": 0.0,
+        "end_s": 22.0,
+        "first_beat": "E02-000",
+        "last_beat": "E02-007"
+      },
+      {
+        "episode": 1,
+        "start": "00:48.00",
+        "end": "01:05.00",
+        "start_s": 48.0,
+        "end_s": 65.0,
+        "first_beat": "E01-017",
+        "last_beat": "E01-021"
+      }
+    ],
+    "hook": "Everybody out! This place is mine!",
+    "cliffhanger": "Because your mother once fed a hungry boy for free. I never forgot.",
+    "why": "Starts high-energy with Daniel invading the bakery, then resolves the stranger's motive with an emotional cliffhanger reveal in the rain.",
+    "rank_reason": "scroll-stopping open; clear to a cold viewer; lands viewers near ep 1; posted later because ep 1, 2 already has a higher-ranked promo. Weakness: Ends on a heartwarming resolution instead of an urgent unresolved cliffhanger.",
+    "source": "montage",
+    "scores": {
+      "context_needed": "",
+      "hook": 5,
+      "cliffhanger": 1.0,
+      "standalone": 4.0,
+      "spoiler": 0,
+      "judge_note": "Ends on a heartwarming resolution instead of an urgent unresolved cliffhanger.",
+      "repeats_episodes": [
+        1,
+        2
+      ]
+    },
+    "issues": [],
+    "transcript": "  -- cut 1 --\n>>   0.0s [visual] Daniel kicks open the bakery door; flour dust bursts into the air.\n>>   0.5s DANIEL: Everybody out! This place is mine!\n     3.5s [action] Maya's mother drops a tray of bread, trembling.\n     6.0s MAYA: You'll have to drag me out yourself.\n     9.0s DANIEL: Gladly. Security, remove these two.\n    12.5s [action] Two guards step toward Maya and her mother.\n    15.0s STRANGER: I wouldn't touch them if I were you.\n    18.0s DANIEL: You again? A man in a borrowed coat giving orders?\n  -- cut 2 --\n    22.0s [action] Maya rushes out into the rain, clutching the contract.\n    25.0s MAYA: Thirty years of my mother's life, gone in one signature.\n    28.5s STRANGER: Then let's make him sign it back.\n    32.0s MAYA: Why would you help me?\n    35.0s STRANGER: Because your mother once fed a hungry boy for free. I never forgot."
+  }
+]

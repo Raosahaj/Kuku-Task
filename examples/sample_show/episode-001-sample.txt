@@ -1,0 +1,111 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: At her engagement party, Maya learns her fiancé Daniel has secretly sold her family's bakery, and a quiet stranger in the crowd steps in.
+CONTINUITY NOTES: Made-up sample episode for trying the tool. Not from any real show.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. HOTEL BALLROOM – NIGHT
+Scene start: 00:00.00
+Scene end: 00:48.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.00)
+Wide shot of a glittering ballroom; a banner reads "Maya & Daniel".
+
+**ACTION:**
+Start: (00:00.50) | End: (00:03.00)
+Maya smiles as guests raise their glasses toward her.
+
+**DANIEL (Smug):**
+Start: (00:03.00) | End: (00:06.00)
+"Before the toast, a little surprise for my bride."
+
+**ACTION:**
+Start: (00:06.00) | End: (00:08.50)
+Daniel hands Maya an envelope. She opens it and freezes.
+
+**MAYA (Shocked):**
+Start: (00:08.50) | End: (00:11.50)
+"This is a sale contract. For my mother's bakery."
+
+**DANIEL (Cold):**
+Start: (00:11.50) | End: (00:15.00)
+"Signed this morning. Your family owed me, and now they don't."
+
+**SOUND FX:**
+Start: (00:15.00) | End: (00:16.00)
+A glass shatters on the marble floor.
+
+**MAYA (Furious):**
+Start: (00:16.00) | End: (00:19.50)
+"You forged my signature!"
+
+**ACTION:**
+Start: (00:19.50) | End: (00:22.00)
+Daniel grabs Maya's wrist and pulls her close.
+
+**DANIEL (Threatening):**
+Start: (00:22.00) | End: (00:26.00)
+"Smile, Maya. Everyone is watching. You have nothing now."
+
+**CAMERA:**
+Start: (00:26.00) | End: (00:28.00)
+Close-up on a tall man in a grey coat at the back of the room, watching.
+
+**STRANGER (Calm):**
+Start: (00:28.00) | End: (00:31.00)
+"Let go of her."
+
+**DANIEL (Mocking):**
+Start: (00:31.00) | End: (00:34.50)
+"And who are you, the waiter?"
+
+**ACTION:**
+Start: (00:34.50) | End: (00:37.50)
+The stranger places a black card on the table. The hotel manager goes pale.
+
+**MANAGER (Trembling):**
+Start: (00:37.50) | End: (00:41.00)
+"Sir... nobody told us you were coming tonight."
+
+**MAYA (Whispering):**
+Start: (00:41.00) | End: (00:44.00)
+"Who are you?"
+
+**CAMERA:**
+Start: (00:44.00) | End: (00:48.00)
+Slow push-in on the stranger's face as he meets Daniel's eyes. Cut to black.
+
+SCENE 02
+Scene heading: EXT. HOTEL ENTRANCE – NIGHT
+Scene start: 00:48.00
+Scene end: 01:10.00
+
+Actions and dialogue:
+
+**ACTION:**
+Start: (00:48.00) | End: (00:51.00)
+Maya rushes out into the rain, clutching the contract.
+
+**MAYA (Tearful):**
+Start: (00:51.00) | End: (00:54.50)
+"Thirty years of my mother's life, gone in one signature."
+
+**STRANGER (Gentle):**
+Start: (00:54.50) | End: (00:58.00)
+"Then let's make him sign it back."
+
+**MAYA (Wary):**
+Start: (00:58.00) | End: (01:01.00)
+"Why would you help me?"
+
+**STRANGER (Quiet):**
+Start: (01:01.00) | End: (01:05.00)
+"Because your mother once fed a hungry boy for free. I never forgot."
+
+**CAMERA:**
+Start: (01:05.00) | End: (01:10.00)
+Maya stares at him as headlights sweep across them. Cliffhanger.

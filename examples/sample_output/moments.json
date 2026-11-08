@@ -1,0 +1,74 @@
+[
+  {
+    "beat": "E01-004",
+    "type": "hook",
+    "text": "This is a sale contract. For my mother's bakery.",
+    "episode": 1
+  },
+  {
+    "beat": "E01-007",
+    "type": "hook",
+    "text": "You forged my signature!",
+    "episode": 1
+  },
+  {
+    "beat": "E01-021",
+    "type": "cliffhanger",
+    "text": "Because your mother once fed a hungry boy for free. I never forgot.",
+    "episode": 1
+  },
+  {
+    "beat": "E01-004",
+    "type": "hook",
+    "text": "MAYA (Shocked): \"This is a sale contract. For my mother's bakery.\"",
+    "episode": 1
+  },
+  {
+    "beat": "E01-007",
+    "type": "hook",
+    "text": "MAYA (Furious): \"You forged my signature!\"",
+    "episode": 1
+  },
+  {
+    "beat": "E01-021",
+    "type": "cliffhanger",
+    "text": "STRANGER (Quiet): \"Because your mother once fed a hungry boy for free. I never forgot.\"",
+    "episode": 1
+  },
+  {
+    "beat": "E02-001",
+    "type": "hook",
+    "text": "DANIEL (Shouting): \"Everybody out! This place is mine!\"",
+    "episode": 2
+  },
+  {
+    "beat": "E02-006",
+    "type": "hook",
+    "text": "STRANGER (Calm): \"I wouldn't touch them if I were you.\"",
+    "episode": 2
+  },
+  {
+    "beat": "E02-018",
+    "type": "cliffhanger",
+    "text": "STRANGER (Cold): \"Bring me everything we have on Daniel Hart.\"",
+    "episode": 2
+  },
+  {
+    "beat": "E02-001",
+    "type": "hook",
+    "text": "DANIEL (Shouting): \"Everybody out! This place is mine!\"",
+    "episode": 2
+  },
+  {
+    "beat": "E02-006",
+    "type": "hook",
+    "text": "STRANGER (Calm): \"I wouldn't touch them if I were you.\"",
+    "episode": 2
+  },
+  {
+    "beat": "E02-019",
+    "type": "cliffhanger",
+    "text": "cam: Daniel's face drains of colour as the line connects. Cliffhanger.",
+    "episode": 2
+  }
+]

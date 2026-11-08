@@ -1,0 +1,28 @@
+{
+  "premise": "When Maya discovers her fiancé secretly sold her family's bakery during their engagement party, a mysterious stranger steps in to defend her. She must navigate betrayal and unmask her silent ally to save her family legacy.",
+  "characters": [
+    {
+      "name": "Maya",
+      "aliases": [],
+      "who": "Bakery owner betrayed by her fiancé"
+    },
+    {
+      "name": "Daniel",
+      "aliases": [],
+      "who": "Maya's deceitful fiancé who secretly sold the bakery"
+    },
+    {
+      "name": "The Stranger",
+      "aliases": [
+        "quiet stranger"
+      ],
+      "who": "Mysterious ally who secretly owns the bakery building"
+    }
+  ],
+  "reveals": [
+    {
+      "episode": 2,
+      "reveal": "The quiet stranger is revealed to be the true owner of the bakery building."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Sample show (made up)",
+  "episodes": [
+    1,
+    2
+  ],
+  "parse_issues": [],
+  "model": "gemini:gemini-3.5-flash",
+  "judge_model": "gemini:gemini-3.5-flash",
+  "usage": [
+    {
+      "model": "gemini:gemini-3.5-flash",
+      "api_calls": 6,
+      "cache_hits": 0,
+      "input_tokens": 14676,
+      "output_tokens": 3020
+    },
+    {
+      "model": "gemini:gemini-3.5-flash",
+      "api_calls": 1,
+      "cache_hits": 0,
+      "input_tokens": 1405,
+      "output_tokens": 152
+    }
+  ],
+  "est_cost_usd_at_list_price": 0.0,
+  "seconds": 300.4,
+  "episodes_failed": [],
+  "promos_not_judged": 0
+}
