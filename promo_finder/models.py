@@ -29,9 +29,11 @@ MAX_WAIT = float(os.environ.get("PROMO_MAX_WAIT", "300"))
 
 
 class LLM:
-    def __init__(self, spec: str, temperature: float = 0.2, use_cache: bool = True):
+    def __init__(self, spec: str, temperature: float = 0.2, use_cache: bool = True,
+                 keys: dict | None = None):
         self.provider, _, self.model = spec.partition(":")
         self.spec, self.temperature, self.use_cache = spec, temperature, use_cache
+        self.keys = keys or {}   # per-run API keys (web app); falls back to the environment
         self.calls = self.cache_hits = self.in_tokens = self.out_tokens = 0
         self.max_wait = MAX_WAIT
         self.last_spec = spec
@@ -78,6 +80,12 @@ class LLM:
     def usages(self) -> list[dict]:
         return [self.usage()]
 
+    def _key(self, name: str) -> str:
+        v = self.keys.get(name) or os.environ.get(name)
+        if not v:
+            raise MissingKey(f"Set {name} to use {self.spec} (see README).")
+        return v
+
 
     # ----------------------------------------------------------- internal ---
     def _with_backoff(self, system, user, tries=8):
@@ -108,7 +116,7 @@ class LLM:
             body = {"systemInstruction": {"parts": [{"text": system}]},
                     "contents": [{"role": "user", "parts": [{"text": user}]}],
                     "generationConfig": {"temperature": T, "responseMimeType": "application/json"}}
-            r = _post(url, body, {"x-goog-api-key": _env("GEMINI_API_KEY")})
+            r = _post(url, body, {"x-goog-api-key": self._key("GEMINI_API_KEY")})
             cands = r.get("candidates") or []
             parts = (cands[0].get("content") or {}).get("parts") if cands else None
             if not parts:   # happens intermittently on preview models; say why instead of KeyError
@@ -121,7 +129,7 @@ class LLM:
             r = _post("https://api.anthropic.com/v1/messages",
                       {"model": m, "max_tokens": 4096, "temperature": T, "system": system,
                        "messages": [{"role": "user", "content": user}]},
-                      {"x-api-key": _env("ANTHROPIC_API_KEY"), "anthropic-version": "2023-06-01"})
+                      {"x-api-key": self._key("ANTHROPIC_API_KEY"), "anthropic-version": "2023-06-01"})
             u = r.get("usage", {})
             return r["content"][0]["text"], u.get("input_tokens", 0), u.get("output_tokens", 0)
         if p == "ollama":
@@ -135,7 +143,7 @@ class LLM:
         if p in ("openai", "groq"):
             base = {"groq": "https://api.groq.com/openai/v1"}.get(
                 p, os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1"))
-            key = _env("GROQ_API_KEY" if p == "groq" else "OPENAI_API_KEY")
+            key = self._key("GROQ_API_KEY" if p == "groq" else "OPENAI_API_KEY")
             r = _post(f"{base}/chat/completions",
                       {"model": m, "temperature": T, "response_format": {"type": "json_object"},
                        "messages": [{"role": "system", "content": system},
@@ -154,9 +162,10 @@ class FallbackLLM(LLM):
 
     FALLBACK_WAIT = 60.0   # in a chain, don't sit out long limits: move on instead
 
-    def __init__(self, spec: str, temperature: float = 0.2, use_cache: bool = True):
+    def __init__(self, spec: str, temperature: float = 0.2, use_cache: bool = True,
+                 keys: dict | None = None):
         self.spec, self.temperature, self.use_cache = spec, temperature, use_cache
-        self.chain = [LLM(s.strip(), temperature, use_cache) for s in spec.split(",") if s.strip()]
+        self.chain = [LLM(s.strip(), temperature, use_cache, keys) for s in spec.split(",") if s.strip()]
         for m in self.chain[:-1]:
             m.max_wait = min(m.max_wait, self.FALLBACK_WAIT)
         self.exhausted: set[str] = set()
@@ -175,7 +184,7 @@ class FallbackLLM(LLM):
                 text = m.complete(system, user)
                 self.last_spec = m.spec
                 return text
-            except (QuotaExhausted, requests.HTTPError) as e:   # out of quota, retired, or down
+            except (QuotaExhausted, MissingKey, requests.HTTPError) as e:   # no quota/key, retired, down
                 self.exhausted.add(m.spec)
                 err = e
         raise err or QuotaExhausted(f"all models in {self.spec} are out of quota")
@@ -212,11 +221,8 @@ def _server_wait(resp) -> float | None:
     return None
 
 
-def _env(name: str) -> str:
-    v = os.environ.get(name)
-    if not v:
-        raise SystemExit(f"Set {name} to use this model (see README).")
-    return v
+class MissingKey(RuntimeError):
+    pass
 
 
 def _post(url, body, headers=None, timeout=180):

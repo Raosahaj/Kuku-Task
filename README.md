@@ -31,6 +31,17 @@ Why it works: Stops scrolling with a shocking betrayal at an engagement party an
               right as an imposing stranger unmasks his authority.
 ```
 
+## Web app
+
+The same pipeline with a point-and-click page: upload episode files (or a zip), pick models, paste
+free API keys (used for that run only, never stored), and get the ranked table, a transcript of every
+cut and a CSV download. Choose the sample show + offline demo models to try it with no key.
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
 ## Run it on real screenplays
 
 1. Put a show's episode files (`episode-001-....txt`, one per episode) in a folder, e.g. `data/`.
@@ -106,6 +117,7 @@ skipped. Free-tier model names change often; if you get a 404, check your provid
 
 ```
 find_promos.py           command-line entry point: run the pipeline, write all outputs
+app.py                   web app (Streamlit) over the same pipeline
 evaluate.py              quality report on a finished run (rules, recall, comparison with another run)
 promo_finder/
   parse.py               screenplay text → table of timed lines (pure code)
