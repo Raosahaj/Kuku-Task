@@ -1,5 +1,7 @@
 # Promo Finder — Kuku AI Generalist assignment (Problem 1)
 
+By **Sahaj Yadav**.
+
 Reads a pack of timestamped microdrama screenplays and returns ranked 20–60s promo cuts:
 episode + start/end of every segment, the hook, the cliffhanger, why it works, and why it's ranked where it is.
 
