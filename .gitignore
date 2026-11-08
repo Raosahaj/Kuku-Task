@@ -1,0 +1,12 @@
+# Kuku's input pack is confidential: never commit it.
+data/
+.cache/
+__pycache__/
+*.pyc
+.env
+# raw outputs quote the confidential scripts: share them via a link-only Drive folder
+outputs/
+# mentions the show's plot/quotes: submit via the form / Drive, not the public repo
+gold.csv
+SOLUTION.md
+*.pdf
